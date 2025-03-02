@@ -22,7 +22,7 @@ void DFS(int vertex, const std::vector<std::vector<int>>& adjacencyMatrix, std::
 
 int main()
 {
-
+    
     setlocale(LC_ALL, "rus");
 
     std::ifstream inputFile("input.txt");
@@ -59,5 +59,6 @@ int main()
     DFS(0, adjacencyMatrix, visited);
 
     std::cout << std::endl;
-    return EXIT_SUCCESS;
+  
+    return EXIT_SUCCESS; 
 }
